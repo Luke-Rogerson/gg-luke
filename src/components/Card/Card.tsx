@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/camelcase */
-/* eslint-disable react/prefer-stateless-function */
 import React from 'react'
 import { Book } from '../../types/types'
 import './Card.css'

@@ -1,52 +1,53 @@
 {
-  "name": "gg-luke-rogerson",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@reduxjs/toolkit": "^1.1.0",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-query": "^2.23.1",
-    "react-redux": "^7.1.3",
-    "react-scripts": "3.4.3",
-    "redux": "^4.0.5"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "jest",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@babel/core": "^7.12.3",
-    "@babel/preset-env": "^7.12.1",
-    "@babel/preset-typescript": "^7.12.1",
-    "@types/jest": "^26.0.14",
-    "@types/react-redux": "^7.1.9",
-    "babel-jest": "^26.5.2",
-    "eslint": "^6.6.0",
-    "eslint-config-airbnb-typescript-prettier": "^3.1.0",
-    "jest": "^26.5.3",
-    "prettier": "^2.1.2",
-    "ts-jest": "^26.4.1",
-    "typescript": "^4.0.3"
-  }
+    "name": "gg-luke-rogerson",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "identity-obj-proxy": "^3.0.0",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0",
+        "react-query": "^2.23.1",
+        "react-redux": "^7.1.3",
+        "react-scripts": "3.4.3",
+        "redux": "^4.0.5"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "jest",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.3",
+        "@babel/preset-env": "^7.12.1",
+        "@babel/preset-react": "^7.12.1",
+        "@babel/preset-typescript": "^7.12.1",
+        "@testing-library/jest-dom": "^5.11.4",
+        "@testing-library/react": "^11.1.0",
+        "@testing-library/user-event": "^7.1.2",
+        "@types/react-dom": "^16.9.8",
+        "@types/react-redux": "^7.1.9",
+        "babel-jest": "^24.9.0",
+        "eslint": "^6.6.0",
+        "eslint-config-airbnb-typescript-prettier": "^3.1.0",
+        "jest": "24.9.0",
+        "prettier": "^2.1.2",
+        "ts-jest": "^26.4.1",
+        "typescript": "^4.0.3"
+    }
 }

@@ -22,12 +22,14 @@ const itemsPerPage = 20
 
 export const App: React.FC = () => {
     const [page, setPage] = useState(1)
+    const [getBooks, { isLoading }] = useMutation(fetchBooks)
+
     const dispatch = useDispatch<Dispatch<AddBooksAction>>()
     const books = useSelector<State>((state) => {
         return state.books
     }) as Book[]
+
     const observerRef = useRef<HTMLDivElement>(null)
-    const [getBooks, { isLoading }] = useMutation(fetchBooks)
 
     const saveToStore = useCallback(() => {
         getBooks({ page, itemsPerPage: 20 }).then((res) => {
